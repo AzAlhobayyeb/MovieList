@@ -3,7 +3,6 @@ package com.example.movielist
 
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
-
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.*

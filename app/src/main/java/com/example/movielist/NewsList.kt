@@ -30,10 +30,11 @@ fun NewsList(newsData: NewsData) {
                 Image(
                     modifier = Modifier
                         .fillMaxHeight()
-                        .fillMaxWidth(0.3f),
+                        .fillMaxWidth(0.3f)
+                        .padding(2.dp),
                     painter = painterResource(id = newsData.imageRes),
                     contentDescription = "${newsData.title}",
-                    contentScale = ContentScale.None,
+                    contentScale = ContentScale.Inside,
                 )
 
                 Text(
@@ -42,7 +43,7 @@ fun NewsList(newsData: NewsData) {
                 )
                 Text(
                     text = "${newsData.info}",
-                    modifier = Modifier.align(Alignment.BottomCenter)
+                    modifier = Modifier.align(Alignment.CenterEnd)
                 )
 
 
